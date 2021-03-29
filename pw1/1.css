@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.logo:hover{
+    filter: brightness(9);
+    cursor: pointer;
+}
+
+p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.welcome-box{
+    background: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,1)), url(bg1.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+
+}
+.logo{
+    width: 125px;
+}
+.navbar{
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: 600;
+}
+
+.content{
+    color: white;
+    left: 7.5%;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+h1{
+    font-size: 80px;
+    margin: 10px 0 30px;
+    font-weight: 600;
+    line-height: 70px;
+}
+h2{
+    font-weight: 500;
+}
+.icon{
+    filter: brightness(9);
+    height: 50px;
+}
+.desc-box{
+    background: linear-gradient(rgba(0,0,0,1),rgba(255,255,255,0)), url(bg2.jpg);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    
+}
+.content2{
+    color: white;
+    margin-top: 150px;
+    margin-left: 7.5%;
+    width: 600px;
+}
+h3{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+button{
+    color: red;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    border: 1px solid red;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background-color: rgba(255,0,0,0.2);
+    color: white;
+}
